@@ -1,4 +1,4 @@
-package org.wolb.movies;
+package org.wolb.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,4 +27,11 @@ public class Movie {
     @DocumentReference
     private List<Review> reviewIds;
 
+    public Movie(String imdbId, String title, String releaseDate, String trailerLink, String poster) {
+        this.imdbId = imdbId;
+        this.title = title;
+        this.releaseDate = releaseDate;
+        this.trailerLink = trailerLink;
+        this.poster = poster;
+    }
 }

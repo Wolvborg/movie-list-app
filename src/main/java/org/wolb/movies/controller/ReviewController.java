@@ -1,4 +1,4 @@
-package org.wolb.movies;
+package org.wolb.movies.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.wolb.movies.model.Review;
+import org.wolb.movies.service.ReviewService;
 
 import java.util.Map;
 

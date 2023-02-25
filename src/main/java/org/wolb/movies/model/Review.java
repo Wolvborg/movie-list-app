@@ -1,4 +1,4 @@
-package org.wolb.movies;
+package org.wolb.movies.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

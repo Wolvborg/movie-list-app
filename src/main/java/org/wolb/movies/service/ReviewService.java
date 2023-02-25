@@ -1,10 +1,13 @@
-package org.wolb.movies;
+package org.wolb.movies.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
+import org.wolb.movies.repository.ReviewRepository;
+import org.wolb.movies.model.Movie;
+import org.wolb.movies.model.Review;
 
 @Service
 public class ReviewService {
